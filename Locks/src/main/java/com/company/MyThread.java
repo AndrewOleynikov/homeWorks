@@ -16,6 +16,6 @@ public class MyThread extends Thread {
             counter.incCount();
         }
 
-        //System.out.println("Thred #" + Thread.currentThread().getName() + " was finished: " + counter.getCount());
+        System.out.println("Thred #" + Thread.currentThread().getName() + " was finished: " + counter.getCount());
     }
 }
