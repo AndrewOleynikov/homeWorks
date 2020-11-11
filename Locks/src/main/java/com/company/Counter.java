@@ -4,10 +4,11 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Counter {
-    private long count = 0L;
-    public ALock lock;
 
-    public Counter(ALock lock) {
+    private long count = 0L;
+    public Lock lock;
+
+    public Counter(Lock lock) {
         this.lock = lock;
     }
 

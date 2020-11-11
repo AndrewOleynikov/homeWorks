@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
-public class TTASLock extends ALock {
+public class TTASLock implements Lock {
     private AtomicBoolean locked = new AtomicBoolean(false);
 
     @Override
@@ -19,7 +19,27 @@ public class TTASLock extends ALock {
     }
 
     @Override
+    public void lockInterruptibly() throws InterruptedException {
+
+    }
+
+    @Override
+    public boolean tryLock() {
+        return false;
+    }
+
+    @Override
+    public boolean tryLock(long time, TimeUnit unit) throws InterruptedException {
+        return false;
+    }
+
+    @Override
     public void unlock() {
         locked.getAndSet(false);
+    }
+
+    @Override
+    public Condition newCondition() {
+        return null;
     }
 }
