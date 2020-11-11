@@ -1,0 +1,2 @@
+JMH S 23 org.example.MyBenchmark S 54 org.example.jmh_generated.MyBenchmark_testTTAS_jmhTest S 8 testTTAS S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 4 E E E E E E E E M 1 13 threadsNumber 4 8 xAA===== 8 yAA===== 8 0AA===== 8 4AA===== U 11 NANOSECONDS E E 
+JMH S 23 org.example.MyBenchmark S 53 org.example.jmh_generated.MyBenchmark_testTAS_jmhTest S 7 testTAS S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 4 E E E E E E E E M 1 13 threadsNumber 4 8 xAA===== 8 yAA===== 8 0AA===== 8 4AA===== U 11 NANOSECONDS E E 
