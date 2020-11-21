@@ -48,12 +48,12 @@ public class Test {
         @Param({"Vertical", "Horizontal"})
         public String mode;
         @Param({"1", "2", "4", "8", "16"})
-        public int numOfThreads;
+        public int countOfThreads;
         public BlurThreads blurThreads;
 
         @Setup(Level.Invocation)
         public void prepare() throws IOException {
-            blurThreads = new BlurThreads(numOfThreads, "./pictures/" + name + ".jpg", "./pictures/" + name + "-blured.jpg");
+            blurThreads = new BlurThreads(countOfThreads, "./pictures/" + name + ".jpg", "./pictures/" + name + "-blured.jpg");
         }
 
         @TearDown(Level.Invocation)
