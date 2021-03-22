@@ -55,7 +55,7 @@ public class Test {
 
         @Setup(Level.Invocation)
         public void prepare() throws IOException {
-            blurThreads = new BlurThreads(countOfThreads, "Blur/pictures/res/" + name + ".jpg", "Blur/pictures/res" + name + "-blured.jpg");
+            blurThreads = new BlurThreads(countOfThreads, "Blur/pictures/origin/" + name + ".jpg", "Blur/pictures/origin" + name + "-blured.jpg");
         }
 
         @TearDown(Level.Invocation)
