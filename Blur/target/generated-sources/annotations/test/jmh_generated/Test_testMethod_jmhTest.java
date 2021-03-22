@@ -402,15 +402,15 @@ public final class Test_testMethod_jmhTest {
         if (val == null) {
             val = new Test_Properties_jmhType();
                 Field f;
+                f = test.Test.Properties.class.getDeclaredField("countOfThreads");
+                f.setAccessible(true);
+                f.set(val, Integer.valueOf(control.getParam("countOfThreads")));
                 f = test.Test.Properties.class.getDeclaredField("mode");
                 f.setAccessible(true);
                 f.set(val, control.getParam("mode"));
                 f = test.Test.Properties.class.getDeclaredField("name");
                 f.setAccessible(true);
                 f.set(val, control.getParam("name"));
-                f = test.Test.Properties.class.getDeclaredField("numOfThreads");
-                f.setAccessible(true);
-                f.set(val, Integer.valueOf(control.getParam("numOfThreads")));
             f_properties1_0 = val;
         }
         return val;

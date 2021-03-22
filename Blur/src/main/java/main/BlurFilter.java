@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-public class BlurFilter extends Thread{
+public class BlurFilter extends Thread {
 
     private BufferedImage in;
     private BufferedImage out;

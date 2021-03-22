@@ -39,6 +39,8 @@ import java.util.concurrent.TimeUnit;
 @BenchmarkMode(Mode.AverageTime)
 @State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
+@Warmup(iterations = 1)
+@Fork(1)
 public class Test {
 
     @State(Scope.Thread)
@@ -53,7 +55,7 @@ public class Test {
 
         @Setup(Level.Invocation)
         public void prepare() throws IOException {
-            blurThreads = new BlurThreads(countOfThreads, "./pictures/" + name + ".jpg", "./pictures/" + name + "-blured.jpg");
+            blurThreads = new BlurThreads(countOfThreads, "Blur/pictures/res/" + name + ".jpg", "Blur/pictures/res" + name + "-blured.jpg");
         }
 
         @TearDown(Level.Invocation)

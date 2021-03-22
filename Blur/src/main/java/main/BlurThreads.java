@@ -40,14 +40,14 @@ public class BlurThreads {
     public void horizontalMode() throws InterruptedException, IOException {
         int step = height / countOfThreads;
         ArrayList<BlurFilter> threads = new ArrayList<>();
-        for (int i = 0; i < height; i += step) {
+        for (int i = 0; i < countOfThreads; i++) {
             int stepTo;
             if (i == countOfThreads - 1) {
                 stepTo = height;
             } else {
-                stepTo = i + step;
+                stepTo = i * step + step;
             }
-            BlurFilter thread = new BlurFilter(in, out, 0, width, i, stepTo);
+            BlurFilter thread = new BlurFilter(in, out, 0, width, i * step, stepTo);
             threads.add(thread);
             thread.start();
         }
@@ -62,14 +62,14 @@ public class BlurThreads {
     public void verticalMode() throws InterruptedException, IOException {
         int step = width / countOfThreads;
         ArrayList<BlurFilter> threads = new ArrayList<>();
-        for (int i = 0; i < width; i += step) {
+        for (int i = 0; i < countOfThreads; i++) {
             int stepTo;
             if (i == countOfThreads - 1) {
                 stepTo = width;
             } else {
-                stepTo = i + step;
+                stepTo = i * step + step;
             }
-            BlurFilter thread = new BlurFilter(in, out, i, stepTo, 0, height);
+            BlurFilter thread = new BlurFilter(in, out, i * step, stepTo, 0, height);
             threads.add(thread);
             thread.start();
         }

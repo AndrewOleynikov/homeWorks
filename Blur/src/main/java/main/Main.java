@@ -11,8 +11,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        String in = "./pictures/pic.jpg";
-        String out = "./pictures/jpg.jpg";
+        String in = "Blur/pictures/pic.jpg";
+        String out = "Blur/pictures/jpg.jpg";
        // BufferedImage pic = ImageIO.read(file);
        // BufferedImage result = new BufferedImage(pic.getWidth(), pic.getHeight(), pic.getType());
 
@@ -21,7 +21,7 @@ public class Main {
 
         BlurThreads b = new BlurThreads(10, in, out);
         b.verticalMode();
-
+        b.writeFile();
 
     }
 }
