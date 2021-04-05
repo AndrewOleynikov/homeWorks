@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 JMH S 9 test.Test S 42 test.jmh_generated.Test_testMethod_jmhTest S 10 testMethod S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 2 E E I 1 1 E E E E E M 3 14 countOfThreads 5 8 xAA===== 8 yAA===== 8 0AA===== 8 4AA===== 8 xAgNAA== 4 mode 2 24 WBQZAIHA0BQaAMGAhBAbAA== 32 IBwbAIHApBgeA8GAuBAdAEGAsBA===== 4 name 3 8 CBQSAcEA 16 NBQRAQEAJBQVA0EA 16 TBQTAEEAMBATAA== U 12 MILLISECONDS E E 
 JMH S 16 test.MyBenchmark S 49 test.jmh_generated.MyBenchmark_testMethod_jmhTest S 10 testMethod S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+=======
+JMH S 16 test.MyBenchmark S 49 test.jmh_generated.MyBenchmark_testMethod_jmhTest S 10 testMethod S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 9 test.Test S 42 test.jmh_generated.Test_testMethod_jmhTest S 10 testMethod S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 2 E E I 1 1 E E E E E M 3 4 mode 2 24 WBQZAIHA0BQaAMGAhBAbAA== 32 IBwbAIHApBgeA8GAuBAdAEGAsBA===== 4 name 3 8 CBQSAcEA 16 NBQRAQEAJBQVA0EA 16 TBQTAEEAMBATAA== 12 numOfThreads 5 8 xAA===== 8 yAA===== 8 0AA===== 8 4AA===== 8 xAgNAA== U 12 MILLISECONDS E E 
+>>>>>>> origin/Blur
