@@ -18,14 +18,16 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Locks" />
+      </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1k7K93Yy934GLhCSCQVUiJAjw0y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +50,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBenchmark.*" type="jmh-id" temporary="true" program-parameters="org.example.MyBenchmark.*" working-dir="$MODULE_WORKING_DIR$" benchmark-type="CLASS" benchmark-class="org.example.MyBenchmark">
+    <configuration name="MyBenchmark.*" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="org.example.MyBenchmark.*" working-dir="$MODULE_WORKING_DIR$" benchmark-type="CLASS" benchmark-class="org.example.MyBenchmark">
       <module name="hhjhjh" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,6 +58,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jmh.MyBenchmark.*" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Jmh.MyBenchmark.*" />
       </list>
@@ -71,6 +75,36 @@
       <updated>1605046037561</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Blur" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Locks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Locks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="527" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1605118927780">
