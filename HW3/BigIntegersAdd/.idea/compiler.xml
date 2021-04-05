@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Locks" />
-        <module name="hhjhjh" />
+        <module name="BigIntegersAdd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BigIntegersAdd" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

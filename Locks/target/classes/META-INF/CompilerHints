@@ -3,5 +3,5 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,org/example/MyBenchmark.testTAS
-inline,org/example/MyBenchmark.testTTAS
+inline,com/company/MyBenchmark.testTAS
+inline,com/company/MyBenchmark.testTTAS
