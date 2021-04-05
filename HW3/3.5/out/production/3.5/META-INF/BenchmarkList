@@ -1,0 +1,1 @@
+JMH S 16 Main.MyBenchmark S 47 Main.jmh_generated.MyBenchmark_testTTAS_jmhTest S 8 testTTAS S 11 AverageTime I 2 -1 A 1 1 1 E I 1 1 T 5 30 ms E I 1 1 T 5 30 ms E I 1 1 E E E E E M 2 5 procs 2 8 yAA===== 8 0AA===== 4 type 1 16 TBQbAEGAsBAbAA== U 11 NANOSECONDS E E 
