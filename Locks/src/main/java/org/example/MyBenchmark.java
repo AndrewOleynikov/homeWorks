@@ -41,6 +41,7 @@ import java.util.concurrent.locks.Lock;
 @State(Scope.Thread)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
+@Fork(value = 1)
 public class MyBenchmark {
 
     private Counter counterTAS;
@@ -51,7 +52,7 @@ public class MyBenchmark {
 
     @Benchmark
     @Warmup(iterations = 1)
-    @Measurement(iterations = 4)
+    @Measurement(iterations = 2)
     public void testTAS() {
         ArrayList<Thread> threads = new ArrayList<>();
         counterTAS = new Counter(new TASLock());
@@ -72,9 +73,9 @@ public class MyBenchmark {
     // System.out.println("Counter: " + counterTAS.getCount());
       }
 
-   @Benchmark
+    @Benchmark
    @Warmup(iterations = 1)
-   @Measurement(iterations = 4)
+   @Measurement(iterations = 2)
    public void testTTAS() {
         ArrayList<Thread> threads = new ArrayList<>();
         counterTTAS = new Counter(new TTASLock());
