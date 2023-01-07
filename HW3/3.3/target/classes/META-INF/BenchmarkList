@@ -1,0 +1,1 @@
+JMH S 16 Main.MyBenchmark S 43 Main.jmh_generated.MyBenchmark_test_jmhTest S 4 test S 11 AverageTime E A 1 1 1 E I 1 2 T 5 50 ms E I 1 1 T 5 50 ms E I 1 1 E E E E E M 2 5 procs 3 8 xAA===== 8 yAA===== 8 0AA===== 4 type 3 8 CBQaAcGA 16 NBQZAQGApBQdA0GA 16 TBQbAEGAsBAbAA== U 11 NANOSECONDS E E 

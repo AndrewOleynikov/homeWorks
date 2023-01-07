@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bce9bb5e-6aba-43a7-ac07-4ac7c726677e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blur.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Test$Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Test$Properties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/MyBenchmark_jmhType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/MyBenchmark_jmhType_B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/MyBenchmark_jmhType_B2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/MyBenchmark_jmhType_B3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/MyBenchmark_testMethod_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/Test_testH_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/Test_testMethod_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/jmh_generated/Test_testMethod_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/jmh_generated/Test_testW_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/jmh_generated/Test_testMethod_jmhTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/test/jmh_generated/Test_testMethod_jmhTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kF2v0LCJENgLzExQv7qOvZu7wK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Рабочий стол/task3/HomeWorks-AddingBigIntegers/AddingBigIntegers" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Blur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.*" type="jmh-id" temporary="true" program-parameters="test.Test.*" working-dir="$MODULE_WORKING_DIR$" benchmark-type="CLASS" benchmark-class="test.Test">
+      <module name="Blur" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Jmh.Test.*" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bce9bb5e-6aba-43a7-ac07-4ac7c726677e" name="Default Changelist" comment="" />
+      <created>1605282251513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605282251513</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
